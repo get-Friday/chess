@@ -1,0 +1,12 @@
+.board {
+  position: relative;
+  user-select: none;
+  background: no-repeat center/contain url('/public/board.png');
+  flex-grow: 1;
+}
+
+.layout {
+  display: flex;
+  height: 80vh;
+  width: 45vw;
+}
