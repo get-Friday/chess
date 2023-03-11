@@ -1,0 +1,325 @@
+.piece {
+  height: 12.5%;
+  width: 12.5%;
+  background-size: 100%;
+  cursor: grab;
+  left: 0;
+  top: 0;
+  position: absolute;
+  touch-action: none;
+  overflow: hidden;
+}
+
+/* PIECES */
+.bb {
+	background-image: url("/public/pieces/bb.png");
+}
+
+.bk {
+	background-image: url("/public/pieces/bk.png");
+}
+
+.bn {
+	background-image: url("/public/pieces/bn.png");
+}
+
+.bp {
+	background-image: url("/public/pieces/bp.png");
+}
+
+.bq {
+	background-image: url("/public/pieces/bq.png");
+}
+
+.br {
+	background-image: url("/public/pieces/br.png");
+}
+
+.wb {
+	background-image: url("/public/pieces/wb.png");
+}
+
+.wk {
+	background-image: url("/public/pieces/wk.png");
+}
+
+.wn {
+	background-image: url("/public/pieces/wn.png");
+}
+
+.wp {
+	background-image: url("/public/pieces/wp.png");
+}
+
+.wq {
+  background-image: url("/public/pieces/wq.png")
+}
+
+.wr {
+	background-image: url("/public/pieces/wr.png");
+}
+
+/* SQUARES */
+/* A COLUMN */
+.square-a8 {
+  transform: translate(0);
+}
+
+.square-a7 {
+  transform: translateY(100%);
+}
+
+.square-a6 {
+  transform: translateY(200%);
+}
+
+.square-a5 {
+  transform: translateY(300%);
+}
+
+.square-a4 {
+  transform: translateY(400%);
+}
+
+.square-a3 {
+  transform: translateY(500%);
+}
+
+.square-a2 {
+  transform: translateY(600%);
+}
+
+.square-a1 {
+  transform: translateY(700%);
+}
+
+/* B COLUMN */
+.square-b8 {
+  transform: translate(100%);
+}
+
+.square-b7 {
+  transform: translate(100%, 100%);
+}
+
+.square-b6 {
+  transform: translate(100%, 200%);
+}
+
+.square-b5 {
+  transform: translate(100%, 300%);
+}
+
+.square-b4 {
+  transform: translate(100%, 400%);
+}
+
+.square-b3 {
+  transform: translate(100%, 500%);
+}
+
+.square-b2 {
+  transform: translate(100%, 600%);
+}
+
+.square-b1 {
+  transform: translate(100%, 700%);
+}
+
+/* C COLUMN */
+.square-c8 {
+  transform: translate(200%);
+}
+
+.square-c7 {
+  transform: translate(200%, 100%);
+}
+
+.square-c6 {
+  transform: translate(200%, 200%);
+}
+
+.square-c5 {
+  transform: translate(200%, 300%);
+}
+
+.square-c4 {
+  transform: translate(200%, 400%);
+}
+
+.square-c3 {
+  transform: translate(200%, 500%);
+}
+
+.square-c2 {
+  transform: translate(200%, 600%);
+}
+
+.square-c1 {
+  transform: translate(200%, 700%);
+}
+
+/* D COLUMN */
+.square-d8 {
+  transform: translate(300%);
+}
+
+.square-d7 {
+  transform: translate(300%, 100%);
+}
+
+.square-d6 {
+  transform: translate(300%, 200%);
+}
+
+.square-d5 {
+  transform: translate(300%, 300%);
+}
+
+.square-d4 {
+  transform: translate(300%, 400%);
+}
+
+.square-d3 {
+  transform: translate(300%, 500%);
+}
+
+.square-d2 {
+  transform: translate(300%, 600%);
+}
+
+.square-d1 {
+  transform: translate(300%, 700%);
+}
+
+/* E COLUMN */
+.square-e8 {
+  transform: translate(400%);
+}
+
+.square-e7 {
+  transform: translate(400%, 100%);
+}
+
+.square-e6 {
+  transform: translate(400%, 200%);
+}
+
+.square-e5 {
+  transform: translate(400%, 300%);
+}
+
+.square-e4 {
+  transform: translate(400%, 400%);
+}
+
+.square-e3 {
+  transform: translate(400%, 500%);
+}
+
+.square-e2 {
+  transform: translate(400%, 600%);
+}
+
+.square-e1 {
+  transform: translate(400%, 700%);
+}
+
+/* F COLUMN */
+.square-f8 {
+  transform: translate(500%);
+}
+
+.square-f7 {
+  transform: translate(500%, 100%);
+}
+
+.square-f6 {
+  transform: translate(500%, 200%);
+}
+
+.square-f5 {
+  transform: translate(500%, 300%);
+}
+
+.square-f4 {
+  transform: translate(500%, 400%);
+}
+
+.square-f3 {
+  transform: translate(500%, 500%);
+}
+
+.square-f2 {
+  transform: translate(500%, 600%);
+}
+
+.square-f1 {
+  transform: translate(500%, 700%);
+}
+
+/* G COLUMN */
+.square-g8 {
+  transform: translate(600%);
+}
+
+.square-g7 {
+  transform: translate(600%, 100%);
+}
+
+.square-g6 {
+  transform: translate(600%, 200%);
+}
+
+.square-g5 {
+  transform: translate(600%, 300%);
+}
+
+.square-g4 {
+  transform: translate(600%, 400%);
+}
+
+.square-g3 {
+  transform: translate(600%, 500%);
+}
+
+.square-g2 {
+  transform: translate(600%, 600%);
+}
+
+.square-g1 {
+  transform: translate(600%, 700%);
+}
+
+/* H COLUMN */
+.square-h8 {
+  transform: translate(700%);
+}
+
+.square-h7 {
+  transform: translate(700%, 100%);
+}
+
+.square-h6 {
+  transform: translate(700%, 200%);
+}
+
+.square-h5 {
+  transform: translate(700%, 300%);
+}
+
+.square-h4 {
+  transform: translate(700%, 400%);
+}
+
+.square-h3 {
+  transform: translate(700%, 500%);
+}
+
+.square-h2 {
+  transform: translate(700%, 600%);
+}
+
+.square-h1 {
+  transform: translate(700%, 700%);
+}
