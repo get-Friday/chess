@@ -6,38 +6,38 @@ export function Board() {
     <div className="layout">
       <div className="board-container">
         <div className="board">
-          <Piece Piece="br" Square="a8" />
-          <Piece Piece="bn" Square="b8" />
-          <Piece Piece="bb" Square="c8" />
-          <Piece Piece="bq" Square="d8" />
-          <Piece Piece="bk" Square="e8" />
-          <Piece Piece="bb" Square="f8" />
-          <Piece Piece="bn" Square="g8" />
-          <Piece Piece="br" Square="h8" />
-          <Piece Piece="bp" Square="a7" />
-          <Piece Piece="bp" Square="b7" />
-          <Piece Piece="bp" Square="c7" />
-          <Piece Piece="bp" Square="d7" />
-          <Piece Piece="bp" Square="e7" />
-          <Piece Piece="bp" Square="f7" />
-          <Piece Piece="bp" Square="g7" />
-          <Piece Piece="bp" Square="h7" />
-          <Piece Piece="wr" Square="a1" />
-          <Piece Piece="wn" Square="b1" />
-          <Piece Piece="wb" Square="c1" />
-          <Piece Piece="wq" Square="d1" />
-          <Piece Piece="wk" Square="e1" />
-          <Piece Piece="wb" Square="f1" />
-          <Piece Piece="wn" Square="g1" />
-          <Piece Piece="wr" Square="h1" />
-          <Piece Piece="wp" Square="a2" />
-          <Piece Piece="wp" Square="b2" />
-          <Piece Piece="wp" Square="c2" />
-          <Piece Piece="wp" Square="d2" />
-          <Piece Piece="wp" Square="e2" />
-          <Piece Piece="wp" Square="f2" />
-          <Piece Piece="wp" Square="g2" />
-          <Piece Piece="wp" Square="h2" />
+          <Piece piece="br" square="a8" />
+          <Piece piece="bn" square="b8" />
+          <Piece piece="bb" square="c8" />
+          <Piece piece="bq" square="d8" />
+          <Piece piece="bk" square="e8" />
+          <Piece piece="bb" square="f8" />
+          <Piece piece="bn" square="g8" />
+          <Piece piece="br" square="h8" />
+          <Piece piece="bp" square="a7" />
+          <Piece piece="bp" square="b7" />
+          <Piece piece="bp" square="c7" />
+          <Piece piece="bp" square="d7" />
+          <Piece piece="bp" square="e7" />
+          <Piece piece="bp" square="f7" />
+          <Piece piece="bp" square="g7" />
+          <Piece piece="bp" square="h7" />
+          <Piece piece="wr" square="a1" />
+          <Piece piece="wn" square="b1" />
+          <Piece piece="wb" square="c1" />
+          <Piece piece="wq" square="d1" />
+          <Piece piece="wk" square="e1" />
+          <Piece piece="wb" square="f1" />
+          <Piece piece="wn" square="g1" />
+          <Piece piece="wr" square="h1" />
+          <Piece piece="wp" square="a2" />
+          <Piece piece="wp" square="b2" />
+          <Piece piece="wp" square="c2" />
+          <Piece piece="wp" square="d2" />
+          <Piece piece="wp" square="e2" />
+          <Piece piece="wp" square="f2" />
+          <Piece piece="wp" square="g2" />
+          <Piece piece="wp" square="h2" />
         </div>
       </div>
     </div>
