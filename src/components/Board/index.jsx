@@ -1,4 +1,4 @@
-import "./Board.css";
+import "./styles.css";
 import { Piece } from "../Piece";
 import { INITIAL_BOARD_SETUP } from "../../constants/INITIAL_BOARD_SETUP";
 

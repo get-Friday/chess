@@ -1,4 +1,4 @@
-import './Piece.css';
+import './styles.css';
 
 export function Piece(props) {
   const classes = `piece ${props.piece} square-${props.square}`;
