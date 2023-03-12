@@ -38,7 +38,7 @@ export function Board() {
 				<div style={{'color': 'white'}} className="test">
 					Board mouse position
 					<b>
-						({boardMousePosition.x}, {boardMousePosition.y})
+						({Math.floor(boardMousePosition.x * 12.5 / 100)}, {Math.floor(boardMousePosition.y * 12.5 / 100)})
 					</b>
 				</div>
 				<div className="board" onMouseMove={handleMouseMove}>
